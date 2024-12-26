@@ -1,6 +1,7 @@
 import attr
 from typing import List
-from . import formats
+#from . import formats
+import formats
 
 @attr.s(slots=True, frozen=True)
 class Table:

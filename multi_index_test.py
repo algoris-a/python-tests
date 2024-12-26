@@ -1,9 +1,14 @@
 import pandas
-from . import formats
-from . import tables
+import formats
+import tables
 
-d1 = pandas.read_csv('D1.csv', **T.format.pandas_read_csv_args)
+t = {}
+for T in tables.TABLES:
+    t[T.name] = pandas.read_csv(T.filename, **T.format.pandas_read_csv_args)
 
+a = t['d1_price'] & t['d2_price']
+
+print('done')
 
 from functools import wraps
 
