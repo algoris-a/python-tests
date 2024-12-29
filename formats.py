@@ -33,7 +33,7 @@ class TableFormat:
         object.__setattr__(self, 'date_column_names', [c.name for c in self.columns if c.importer in (DT, NS_DT)])
         dtype = {}
         parse_dates = []
-        DT_type = None
+        DT_type = None            # this assumes that all date columns are of the same type
         for c in self.columns:
             if c.importer in (DT, NS_DT):
                 parse_dates.append(c.name)
