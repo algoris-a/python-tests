@@ -5,4 +5,9 @@ df = pd.DataFrame({
     'B': [5, 6, 7, 8]
 })
 
+x =1
+Y= 2
+a =   x +Y
+
+
 df

@@ -1,0 +1,615 @@
+(base) PS C:\Users\agori> conda activate dev_39
+(dev_39) PS C:\Users\agori> conda install -c conda-forge huggingface_hub
+Retrieving notices: done
+Channels:
+ - conda-forge
+ - defaults
+Platform: win-64
+Collecting package metadata (repodata.json): done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: C:\Users\agori\.conda\envs\dev_39
+
+  added / updated specs:
+    - huggingface_hub
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    ca-certificates-2025.4.26  |       h4c7d964_0         149 KB  conda-forge
+    certifi-2025.4.26          |     pyhd8ed1ab_0         154 KB  conda-forge
+    cffi-1.17.1                |   py39ha55e580_0         231 KB  conda-forge
+    charset-normalizer-3.4.2   |     pyhd8ed1ab_0          49 KB  conda-forge
+    filelock-3.18.0            |     pyhd8ed1ab_0          17 KB  conda-forge
+    fsspec-2025.3.2            |     pyhd8ed1ab_0         139 KB  conda-forge
+    h2-4.2.0                   |     pyhd8ed1ab_0          53 KB  conda-forge
+    hpack-4.1.0                |     pyhd8ed1ab_0          30 KB  conda-forge
+    huggingface_hub-0.30.2     |     pyhd8ed1ab_0         290 KB  conda-forge
+    hyperframe-6.1.0           |     pyhd8ed1ab_0          17 KB  conda-forge
+    idna-3.10                  |     pyhd8ed1ab_1          49 KB  conda-forge
+    openssl-3.5.0              |       ha4e3fda_1         8.6 MB  conda-forge
+    pycparser-2.22             |     pyh29332c3_1         108 KB  conda-forge
+    pysocks-1.7.1              |     pyh09c184e_7          21 KB  conda-forge
+    pyyaml-6.0.2               |   py39hf73967f_2         154 KB  conda-forge
+    requests-2.32.3            |     pyhd8ed1ab_1          57 KB  conda-forge
+    tqdm-4.67.1                |     pyhd8ed1ab_1          87 KB  conda-forge
+    urllib3-2.4.0              |     pyhd8ed1ab_0          98 KB  conda-forge
+    win_inet_pton-1.1.0        |     pyh7428d3b_8           9 KB  conda-forge
+    yaml-0.2.5                 |       h8ffe710_2          62 KB  conda-forge
+    zstandard-0.23.0           |   py39ha55e580_2         425 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:        10.8 MB
+
+The following NEW packages will be INSTALLED:
+
+  certifi            conda-forge/noarch::certifi-2025.4.26-pyhd8ed1ab_0
+  cffi               conda-forge/win-64::cffi-1.17.1-py39ha55e580_0
+  charset-normalizer conda-forge/noarch::charset-normalizer-3.4.2-pyhd8ed1ab_0
+  filelock           conda-forge/noarch::filelock-3.18.0-pyhd8ed1ab_0
+  fsspec             conda-forge/noarch::fsspec-2025.3.2-pyhd8ed1ab_0
+  h2                 conda-forge/noarch::h2-4.2.0-pyhd8ed1ab_0
+  hpack              conda-forge/noarch::hpack-4.1.0-pyhd8ed1ab_0
+  huggingface_hub    conda-forge/noarch::huggingface_hub-0.30.2-pyhd8ed1ab_0
+  hyperframe         conda-forge/noarch::hyperframe-6.1.0-pyhd8ed1ab_0
+  idna               conda-forge/noarch::idna-3.10-pyhd8ed1ab_1
+  pycparser          conda-forge/noarch::pycparser-2.22-pyh29332c3_1
+  pysocks            conda-forge/noarch::pysocks-1.7.1-pyh09c184e_7
+  pyyaml             conda-forge/win-64::pyyaml-6.0.2-py39hf73967f_2
+  requests           conda-forge/noarch::requests-2.32.3-pyhd8ed1ab_1
+  tqdm               conda-forge/noarch::tqdm-4.67.1-pyhd8ed1ab_1
+  urllib3            conda-forge/noarch::urllib3-2.4.0-pyhd8ed1ab_0
+  win_inet_pton      conda-forge/noarch::win_inet_pton-1.1.0-pyh7428d3b_8
+  yaml               conda-forge/win-64::yaml-0.2.5-h8ffe710_2
+  zstandard          conda-forge/win-64::zstandard-0.23.0-py39ha55e580_2
+
+The following packages will be UPDATED:
+
+  ca-certificates    pkgs/main/win-64::ca-certificates-202~ --> conda-forge/noarch::ca-certificates-2025.4.26-h4c7d96
+  openssl                                  3.4.0-ha4e3fda_1 --> 3.5.0-ha4e3fda_1
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages:
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+(dev_39) PS C:\Users\agori> conda install transformers
+Channels:
+ - defaults
+ - conda-forge
+Platform: win-64
+Collecting package metadata (repodata.json): done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: C:\Users\agori\.conda\envs\dev_39
+
+  added / updated specs:
+    - transformers
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    aiohappyeyeballs-2.4.4     |   py39haa95532_0          24 KB
+    aiohttp-3.11.10            |   py39h827c3e9_0         779 KB
+    aiosignal-1.2.0            |     pyhd3eb1b0_0          12 KB
+    arrow-cpp-19.0.0           |       h33d5241_2         7.7 MB
+    async-timeout-5.0.1        |   py39haa95532_0          14 KB
+    aws-c-auth-0.6.19          |       h2bbff1b_0          95 KB
+    aws-c-cal-0.5.20           |       h2bbff1b_0          41 KB
+    aws-c-common-0.8.5         |       h2bbff1b_0         198 KB
+    aws-c-compression-0.2.16   |       h2bbff1b_0          21 KB
+    aws-c-event-stream-0.2.15  |       hd77b12b_0          50 KB
+    aws-c-http-0.6.25          |       h2bbff1b_0         181 KB
+    aws-c-io-0.13.10           |       h2bbff1b_0         153 KB
+    aws-c-mqtt-0.7.13          |       h2bbff1b_0          65 KB
+    aws-c-s3-0.1.51            |       h2bbff1b_0          68 KB
+    aws-c-sdkutils-0.1.6       |       h2bbff1b_0          48 KB
+    aws-checksums-0.1.13       |       h2bbff1b_0          50 KB
+    aws-crt-cpp-0.18.16        |       hd77b12b_0         194 KB
+    aws-sdk-cpp-1.11.212       |       h6a15179_0         3.5 MB
+    boost-cpp-1.82.0           |       h59b6b97_2          11 KB
+    c-ares-1.19.1              |       h2bbff1b_0         117 KB
+    certifi-2025.4.26          |   py39haa95532_0         157 KB
+    dataclasses-0.8            |     pyh6d0b6a4_7           8 KB
+    datasets-2.2.1             |     pyhd8ed1ab_0         249 KB  conda-forge
+    frozenlist-1.5.0           |   py39h827c3e9_0          61 KB
+    gflags-2.2.2               |       hd77b12b_1         247 KB
+    glog-0.5.0                 |       hd77b12b_1          93 KB
+    libabseil-20250127.0       | cxx17_h52369b4_0         1.9 MB
+    libboost-1.82.0            |       h3399ecb_2        23.1 MB
+    libbrotlicommon-1.0.9      |       h827c3e9_9          79 KB
+    libbrotlidec-1.0.9         |       h827c3e9_9          40 KB
+    libbrotlienc-1.0.9         |       h827c3e9_9         261 KB
+    libcurl-8.12.1             |       h9da9810_0         382 KB
+    libevent-2.1.12            |       h56d1f94_1         417 KB
+    libgrpc-1.71.0             |       hf4237ab_0        15.2 MB
+    libprotobuf-5.29.3         |       hac4c8cb_0         7.5 MB
+    libre2-11-2024.07.02       |       h5da7b33_0         300 KB
+    libthrift-0.15.0           |       h4364b78_2         777 KB
+    multidict-6.1.0            |   py39h827c3e9_0          59 KB
+    multiprocess-0.70.15       |   py39haa95532_0         242 KB
+    orc-2.1.1                  |       hd1c1d5c_0         1.3 MB
+    propcache-0.3.1            |   py39h827c3e9_0          61 KB
+    protobuf-5.29.3            |   py39h5da7b33_0         431 KB
+    pyarrow-19.0.0             |   py39h5da7b33_1         5.3 MB
+    python-xxhash-3.5.0        |   py39h827c3e9_0          32 KB
+    re2-2024.07.02             |       h214f63a_0         244 KB
+    regex-2024.11.6            |   py39h827c3e9_0         341 KB
+    responses-0.13.3           |     pyhd3eb1b0_0          24 KB
+    safetensors-0.5.3          |   py39haa69e8e_0         322 KB
+    snappy-1.2.1               |       hcdb6601_0         108 KB
+    tokenizers-0.21.0          |   py39h5bc5163_0         2.0 MB
+    transformers-4.49.0        |   py39haa95532_0        21.5 MB
+    utf8proc-2.6.1             |       h2bbff1b_1          96 KB
+    xxhash-0.8.0               |       h2bbff1b_3          87 KB
+    yarl-1.18.0                |   py39h827c3e9_0         143 KB
+    ------------------------------------------------------------
+                                           Total:        96.3 MB
+
+The following NEW packages will be INSTALLED:
+
+  aiohappyeyeballs   pkgs/main/win-64::aiohappyeyeballs-2.4.4-py39haa95532_0
+  aiohttp            pkgs/main/win-64::aiohttp-3.11.10-py39h827c3e9_0
+  aiosignal          pkgs/main/noarch::aiosignal-1.2.0-pyhd3eb1b0_0
+  arrow-cpp          pkgs/main/win-64::arrow-cpp-19.0.0-h33d5241_2
+  async-timeout      pkgs/main/win-64::async-timeout-5.0.1-py39haa95532_0
+  aws-c-auth         pkgs/main/win-64::aws-c-auth-0.6.19-h2bbff1b_0
+  aws-c-cal          pkgs/main/win-64::aws-c-cal-0.5.20-h2bbff1b_0
+  aws-c-common       pkgs/main/win-64::aws-c-common-0.8.5-h2bbff1b_0
+  aws-c-compression  pkgs/main/win-64::aws-c-compression-0.2.16-h2bbff1b_0
+  aws-c-event-stream pkgs/main/win-64::aws-c-event-stream-0.2.15-hd77b12b_0
+  aws-c-http         pkgs/main/win-64::aws-c-http-0.6.25-h2bbff1b_0
+  aws-c-io           pkgs/main/win-64::aws-c-io-0.13.10-h2bbff1b_0
+  aws-c-mqtt         pkgs/main/win-64::aws-c-mqtt-0.7.13-h2bbff1b_0
+  aws-c-s3           pkgs/main/win-64::aws-c-s3-0.1.51-h2bbff1b_0
+  aws-c-sdkutils     pkgs/main/win-64::aws-c-sdkutils-0.1.6-h2bbff1b_0
+  aws-checksums      pkgs/main/win-64::aws-checksums-0.1.13-h2bbff1b_0
+  aws-crt-cpp        pkgs/main/win-64::aws-crt-cpp-0.18.16-hd77b12b_0
+  aws-sdk-cpp        pkgs/main/win-64::aws-sdk-cpp-1.11.212-h6a15179_0
+  boost-cpp          pkgs/main/win-64::boost-cpp-1.82.0-h59b6b97_2
+  bzip2              pkgs/main/win-64::bzip2-1.0.8-h2bbff1b_6
+  c-ares             pkgs/main/win-64::c-ares-1.19.1-h2bbff1b_0
+  dataclasses        pkgs/main/noarch::dataclasses-0.8-pyh6d0b6a4_7
+  datasets           conda-forge/noarch::datasets-2.2.1-pyhd8ed1ab_0
+  frozenlist         pkgs/main/win-64::frozenlist-1.5.0-py39h827c3e9_0
+  gflags             pkgs/main/win-64::gflags-2.2.2-hd77b12b_1
+  glog               pkgs/main/win-64::glog-0.5.0-hd77b12b_1
+  libabseil          pkgs/main/win-64::libabseil-20250127.0-cxx17_h52369b4_0
+  libboost           pkgs/main/win-64::libboost-1.82.0-h3399ecb_2
+  libbrotlicommon    pkgs/main/win-64::libbrotlicommon-1.0.9-h827c3e9_9
+  libbrotlidec       pkgs/main/win-64::libbrotlidec-1.0.9-h827c3e9_9
+  libbrotlienc       pkgs/main/win-64::libbrotlienc-1.0.9-h827c3e9_9
+  libcurl            pkgs/main/win-64::libcurl-8.12.1-h9da9810_0
+  libevent           pkgs/main/win-64::libevent-2.1.12-h56d1f94_1
+  libgrpc            pkgs/main/win-64::libgrpc-1.71.0-hf4237ab_0
+  libprotobuf        pkgs/main/win-64::libprotobuf-5.29.3-hac4c8cb_0
+  libre2-11          pkgs/main/win-64::libre2-11-2024.07.02-h5da7b33_0
+  libssh2            pkgs/main/win-64::libssh2-1.11.1-h2addb87_0
+  libthrift          pkgs/main/win-64::libthrift-0.15.0-h4364b78_2
+  multidict          pkgs/main/win-64::multidict-6.1.0-py39h827c3e9_0
+  multiprocess       pkgs/main/win-64::multiprocess-0.70.15-py39haa95532_0
+  orc                pkgs/main/win-64::orc-2.1.1-hd1c1d5c_0
+  propcache          pkgs/main/win-64::propcache-0.3.1-py39h827c3e9_0
+  protobuf           pkgs/main/win-64::protobuf-5.29.3-py39h5da7b33_0
+  pyarrow            pkgs/main/win-64::pyarrow-19.0.0-py39h5da7b33_1
+  python-xxhash      pkgs/main/win-64::python-xxhash-3.5.0-py39h827c3e9_0
+  re2                pkgs/main/win-64::re2-2024.07.02-h214f63a_0
+  regex              pkgs/main/win-64::regex-2024.11.6-py39h827c3e9_0
+  responses          pkgs/main/noarch::responses-0.13.3-pyhd3eb1b0_0
+  safetensors        pkgs/main/win-64::safetensors-0.5.3-py39haa69e8e_0
+  snappy             pkgs/main/win-64::snappy-1.2.1-hcdb6601_0
+  tokenizers         pkgs/main/win-64::tokenizers-0.21.0-py39h5bc5163_0
+  transformers       pkgs/main/win-64::transformers-4.49.0-py39haa95532_0
+  utf8proc           pkgs/main/win-64::utf8proc-2.6.1-h2bbff1b_1
+  xxhash             pkgs/main/win-64::xxhash-0.8.0-h2bbff1b_3
+  yarl               pkgs/main/win-64::yarl-1.18.0-py39h827c3e9_0
+
+The following packages will be SUPERSEDED by a higher-priority channel:
+
+  certifi            conda-forge/noarch::certifi-2025.4.26~ --> pkgs/main/win-64::certifi-2025.4.26-py39haa95532_0
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages:
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+(dev_39) PS C:\Users\agori> cd .conda
+(dev_39) PS C:\Users\agori\.conda> cd envs
+(dev_39) PS C:\Users\agori\.conda\envs> ll
+(dev_39) PS C:\Users\agori\.conda\envs> dir
+
+
+    Directory: C:\Users\agori\.conda\envs
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          5/9/2025   2:48 PM                dev_39
+-a----        12/21/2024   1:11 AM              0 .conda_envs_dir_test
+
+
+(dev_39) PS C:\Users\agori\.conda\envs> cd dev_39
+(dev_39) PS C:\Users\agori\.conda\envs\dev_39> dir
+
+
+    Directory: C:\Users\agori\.conda\envs\dev_39
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          5/9/2025   2:48 PM                conda-meta
+d-----        12/21/2024   1:11 AM                DLLs
+d-----        12/21/2024   1:11 AM                etc
+d-----        12/21/2024   1:11 AM                include
+d-----        12/21/2024   1:11 AM                Lib
+d-----          5/9/2025   2:48 PM                Library
+d-----        12/21/2024   1:11 AM                libs
+d-----          5/9/2025   2:48 PM                Scripts
+d-----         1/26/2025   3:42 PM                share
+d-----        12/21/2024   1:11 AM                tcl
+d-----        12/21/2024   1:11 AM                Tools
+-a----          5/6/2022  11:21 AM          21984 api-ms-win-core-console-l1-1-0.dll
+-a----          5/6/2022  11:29 AM          21976 api-ms-win-core-console-l1-2-0.dll
+-a----          5/6/2022  11:21 AM          21984 api-ms-win-core-datetime-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          21984 api-ms-win-core-debug-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          21976 api-ms-win-core-errorhandling-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          21992 api-ms-win-core-fibers-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          26088 api-ms-win-core-file-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          21976 api-ms-win-core-file-l1-2-0.dll
+-a----          5/6/2022  11:22 AM          21976 api-ms-win-core-file-l2-1-0.dll
+-a----          5/6/2022  11:21 AM          21984 api-ms-win-core-handle-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          21984 api-ms-win-core-heap-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          21984 api-ms-win-core-interlocked-l1-1-0.dll
+-a----          5/6/2022  11:22 AM          22008 api-ms-win-core-libraryloader-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          21984 api-ms-win-core-localization-l1-2-0.dll
+-a----          5/6/2022  11:21 AM          21976 api-ms-win-core-memory-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          21984 api-ms-win-core-namedpipe-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          22008 api-ms-win-core-processenvironment-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          21976 api-ms-win-core-processthreads-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          21976 api-ms-win-core-processthreads-l1-1-1.dll
+-a----          5/6/2022  11:21 AM          21992 api-ms-win-core-profile-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          21984 api-ms-win-core-rtlsupport-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          21976 api-ms-win-core-string-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          21976 api-ms-win-core-synch-l1-1-0.dll
+-a----          5/6/2022  11:22 AM          21976 api-ms-win-core-synch-l1-2-0.dll
+-a----          5/6/2022  11:21 AM          21984 api-ms-win-core-sysinfo-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          21976 api-ms-win-core-timezone-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          21992 api-ms-win-core-util-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          21984 api-ms-win-crt-conio-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          26080 api-ms-win-crt-convert-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          21984 api-ms-win-crt-environment-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          21984 api-ms-win-crt-filesystem-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          21984 api-ms-win-crt-heap-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          21984 api-ms-win-crt-locale-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          30184 api-ms-win-crt-math-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          30176 api-ms-win-crt-multibyte-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          75232 api-ms-win-crt-private-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          21984 api-ms-win-crt-process-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          26104 api-ms-win-crt-runtime-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          26080 api-ms-win-crt-stdio-l1-1-0.dll
+-a----          5/6/2022  11:22 AM          26072 api-ms-win-crt-string-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          21984 api-ms-win-crt-time-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          22000 api-ms-win-crt-utility-l1-1-0.dll
+-a----         1/23/2025   5:08 AM         322640 concrt140.dll
+-a----         12/3/2024  12:50 PM          13937 LICENSE_PYTHON.txt
+-a----         1/23/2025   5:08 AM         575592 msvcp140.dll
+-a----         1/23/2025   5:08 AM          35944 msvcp140_1.dll
+-a----         1/23/2025   5:08 AM         267880 msvcp140_2.dll
+-a----         1/23/2025   5:08 AM          50256 msvcp140_atomic_wait.dll
+-a----         1/23/2025   5:08 AM          31824 msvcp140_codecvt_ids.dll
+-a----         1/18/2025   2:47 PM             98 pylupdate5.bat
+-a----         1/18/2025   2:47 PM             94 pyrcc5.bat
+-a----        12/11/2024  12:13 PM         107792 python.exe
+-a----        12/11/2024  12:02 PM         471040 python.pdb
+-a----        12/11/2024  12:11 PM          64272 python3.dll
+-a----        12/11/2024  12:11 PM        4537616 python39.dll
+-a----        12/11/2024  12:02 PM       13742080 python39.pdb
+-a----        12/11/2024  12:13 PM         106768 pythonw.exe
+-a----        12/11/2024  11:42 AM         446464 pythonw.pdb
+-a----         1/18/2025   2:47 PM             93 pyuic5.bat
+-a----          5/6/2022  11:22 AM        1123808 ucrtbase.dll
+-a----         1/23/2025   5:08 AM         408656 vcamp140.dll
+-a----         1/23/2025   5:08 AM         351824 vccorlib140.dll
+-a----         1/23/2025   5:08 AM         192104 vcomp140.dll
+-a----         1/23/2025   5:08 AM         120432 vcruntime140.dll
+-a----         1/23/2025   5:08 AM          49744 vcruntime140_1.dll
+-a----         1/23/2025   5:08 AM          38504 vcruntime140_threads.dll
+-a----        12/11/2024  12:13 PM         606480 venvlauncher.exe
+-a----        12/11/2024  12:13 PM         605968 venvwlauncher.exe
+-a----         4/30/2024   6:07 PM          99608 zlib.dll
+
+
+(dev_39) PS C:\Users\agori\.conda\envs\dev_39> conda install pip
+Channels:
+ - defaults
+ - conda-forge
+Platform: win-64
+Collecting package metadata (repodata.json): done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: C:\Users\agori\.conda\envs\dev_39
+
+  added / updated specs:
+    - pip
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    pip-25.1                   |     pyhc872135_2         1.3 MB
+    ------------------------------------------------------------
+                                           Total:         1.3 MB
+
+The following packages will be UPDATED:
+
+  pip                pkgs/main/win-64::pip-24.2-py39haa955~ --> pkgs/main/noarch::pip-25.1-pyhc872135_2
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages:
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+(dev_39) PS C:\Users\agori\.conda\envs\dev_39> dir
+
+
+    Directory: C:\Users\agori\.conda\envs\dev_39
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          5/9/2025   3:06 PM                conda-meta
+d-----        12/21/2024   1:11 AM                DLLs
+d-----        12/21/2024   1:11 AM                etc
+d-----        12/21/2024   1:11 AM                include
+d-----        12/21/2024   1:11 AM                Lib
+d-----          5/9/2025   2:48 PM                Library
+d-----        12/21/2024   1:11 AM                libs
+d-----          5/9/2025   3:06 PM                Scripts
+d-----         1/26/2025   3:42 PM                share
+d-----        12/21/2024   1:11 AM                tcl
+d-----        12/21/2024   1:11 AM                Tools
+-a----          5/6/2022  11:21 AM          21984 api-ms-win-core-console-l1-1-0.dll
+-a----          5/6/2022  11:29 AM          21976 api-ms-win-core-console-l1-2-0.dll
+-a----          5/6/2022  11:21 AM          21984 api-ms-win-core-datetime-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          21984 api-ms-win-core-debug-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          21976 api-ms-win-core-errorhandling-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          21992 api-ms-win-core-fibers-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          26088 api-ms-win-core-file-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          21976 api-ms-win-core-file-l1-2-0.dll
+-a----          5/6/2022  11:22 AM          21976 api-ms-win-core-file-l2-1-0.dll
+-a----          5/6/2022  11:21 AM          21984 api-ms-win-core-handle-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          21984 api-ms-win-core-heap-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          21984 api-ms-win-core-interlocked-l1-1-0.dll
+-a----          5/6/2022  11:22 AM          22008 api-ms-win-core-libraryloader-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          21984 api-ms-win-core-localization-l1-2-0.dll
+-a----          5/6/2022  11:21 AM          21976 api-ms-win-core-memory-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          21984 api-ms-win-core-namedpipe-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          22008 api-ms-win-core-processenvironment-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          21976 api-ms-win-core-processthreads-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          21976 api-ms-win-core-processthreads-l1-1-1.dll
+-a----          5/6/2022  11:21 AM          21992 api-ms-win-core-profile-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          21984 api-ms-win-core-rtlsupport-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          21976 api-ms-win-core-string-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          21976 api-ms-win-core-synch-l1-1-0.dll
+-a----          5/6/2022  11:22 AM          21976 api-ms-win-core-synch-l1-2-0.dll
+-a----          5/6/2022  11:21 AM          21984 api-ms-win-core-sysinfo-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          21976 api-ms-win-core-timezone-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          21992 api-ms-win-core-util-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          21984 api-ms-win-crt-conio-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          26080 api-ms-win-crt-convert-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          21984 api-ms-win-crt-environment-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          21984 api-ms-win-crt-filesystem-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          21984 api-ms-win-crt-heap-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          21984 api-ms-win-crt-locale-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          30184 api-ms-win-crt-math-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          30176 api-ms-win-crt-multibyte-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          75232 api-ms-win-crt-private-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          21984 api-ms-win-crt-process-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          26104 api-ms-win-crt-runtime-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          26080 api-ms-win-crt-stdio-l1-1-0.dll
+-a----          5/6/2022  11:22 AM          26072 api-ms-win-crt-string-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          21984 api-ms-win-crt-time-l1-1-0.dll
+-a----          5/6/2022  11:21 AM          22000 api-ms-win-crt-utility-l1-1-0.dll
+-a----         1/23/2025   5:08 AM         322640 concrt140.dll
+-a----         12/3/2024  12:50 PM          13937 LICENSE_PYTHON.txt
+-a----         1/23/2025   5:08 AM         575592 msvcp140.dll
+-a----         1/23/2025   5:08 AM          35944 msvcp140_1.dll
+-a----         1/23/2025   5:08 AM         267880 msvcp140_2.dll
+-a----         1/23/2025   5:08 AM          50256 msvcp140_atomic_wait.dll
+-a----         1/23/2025   5:08 AM          31824 msvcp140_codecvt_ids.dll
+-a----         1/18/2025   2:47 PM             98 pylupdate5.bat
+-a----         1/18/2025   2:47 PM             94 pyrcc5.bat
+-a----        12/11/2024  12:13 PM         107792 python.exe
+-a----        12/11/2024  12:02 PM         471040 python.pdb
+-a----        12/11/2024  12:11 PM          64272 python3.dll
+-a----        12/11/2024  12:11 PM        4537616 python39.dll
+-a----        12/11/2024  12:02 PM       13742080 python39.pdb
+-a----        12/11/2024  12:13 PM         106768 pythonw.exe
+-a----        12/11/2024  11:42 AM         446464 pythonw.pdb
+-a----         1/18/2025   2:47 PM             93 pyuic5.bat
+-a----          5/6/2022  11:22 AM        1123808 ucrtbase.dll
+-a----         1/23/2025   5:08 AM         408656 vcamp140.dll
+-a----         1/23/2025   5:08 AM         351824 vccorlib140.dll
+-a----         1/23/2025   5:08 AM         192104 vcomp140.dll
+-a----         1/23/2025   5:08 AM         120432 vcruntime140.dll
+-a----         1/23/2025   5:08 AM          49744 vcruntime140_1.dll
+-a----         1/23/2025   5:08 AM          38504 vcruntime140_threads.dll
+-a----        12/11/2024  12:13 PM         606480 venvlauncher.exe
+-a----        12/11/2024  12:13 PM         605968 venvwlauncher.exe
+-a----         4/30/2024   6:07 PM          99608 zlib.dll
+
+
+(dev_39) PS C:\Users\agori\.conda\envs\dev_39> pip3
+
+Usage:
+  pip3 <command> [options]
+
+Commands:
+  install                     Install packages.
+  lock                        Generate a lock file.
+  download                    Download packages.
+  uninstall                   Uninstall packages.
+  freeze                      Output installed packages in requirements format.
+  inspect                     Inspect the python environment.
+  list                        List installed packages.
+  show                        Show information about installed packages.
+  check                       Verify installed packages have compatible dependencies.
+  config                      Manage local and global configuration.
+  search                      Search PyPI for packages.
+  cache                       Inspect and manage pip's wheel cache.
+  index                       Inspect information available from package indexes.
+  wheel                       Build wheels from your requirements.
+  hash                        Compute hashes of package archives.
+  completion                  A helper command used for command completion.
+  debug                       Show information useful for debugging.
+  help                        Show help for commands.
+
+General Options:
+  -h, --help                  Show help.
+  --debug                     Let unhandled exceptions propagate outside the main subroutine, instead of logging them
+                              to stderr.
+  --isolated                  Run pip in an isolated mode, ignoring environment variables and user configuration.
+  --require-virtualenv        Allow pip to only run in a virtual environment; exit with an error otherwise.
+  --python <python>           Run pip with the specified Python interpreter.
+  -v, --verbose               Give more output. Option is additive, and can be used up to 3 times.
+  -V, --version               Show version and exit.
+  -q, --quiet                 Give less output. Option is additive, and can be used up to 3 times (corresponding to
+                              WARNING, ERROR, and CRITICAL logging levels).
+  --log <path>                Path to a verbose appending log.
+  --no-input                  Disable prompting for input.
+  --keyring-provider <keyring_provider>
+                              Enable the credential lookup via the keyring library if user input is allowed. Specify
+                              which mechanism to use [auto, disabled, import, subprocess]. (default: auto)
+  --proxy <proxy>             Specify a proxy in the form scheme://[user:passwd@]proxy.server:port.
+  --retries <retries>         Maximum attempts to establish a new HTTP connection. (default: 5)
+  --timeout <sec>             Set the socket timeout (default 15 seconds).
+  --exists-action <action>    Default action when a path already exists: (s)witch, (i)gnore, (w)ipe, (b)ackup, (a)bort.
+  --trusted-host <hostname>   Mark this host or host:port pair as trusted, even though it does not have valid or any
+                              HTTPS.
+  --cert <path>               Path to PEM-encoded CA certificate bundle. If provided, overrides the default. See 'SSL
+                              Certificate Verification' in pip documentation for more information.
+  --client-cert <path>        Path to SSL client certificate, a single file containing the private key and the
+                              certificate in PEM format.
+  --cache-dir <dir>           Store the cache data in <dir>.
+  --no-cache-dir              Disable the cache.
+  --disable-pip-version-check
+                              Don't periodically check PyPI to determine whether a new version of pip is available for
+                              download. Implied with --no-index.
+  --no-color                  Suppress colored output.
+  --use-feature <feature>     Enable new functionality, that may be backward incompatible.
+  --use-deprecated <feature>  Enable deprecated functionality, that will be removed in the future.
+  --resume-retries <resume_retries>
+                              Maximum attempts to resume or restart an incomplete download. (default: 0)
+(dev_39) PS C:\Users\agori\.conda\envs\dev_39> pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+Looking in indexes: https://download.pytorch.org/whl/cu118
+Collecting torch
+  Downloading https://download.pytorch.org/whl/cu118/torch-2.7.0%2Bcu118-cp39-cp39-win_amd64.whl.metadata (29 kB)
+Collecting torchvision
+  Downloading https://download.pytorch.org/whl/cu118/torchvision-0.22.0%2Bcu118-cp39-cp39-win_amd64.whl.metadata (6.3 kB)
+Collecting torchaudio
+  Downloading https://download.pytorch.org/whl/cu118/torchaudio-2.7.0%2Bcu118-cp39-cp39-win_amd64.whl.metadata (6.8 kB)
+Requirement already satisfied: filelock in c:\users\agori\.conda\envs\dev_39\lib\site-packages (from torch) (3.18.0)
+Requirement already satisfied: typing-extensions>=4.10.0 in c:\users\agori\.conda\envs\dev_39\lib\site-packages (from torch) (4.12.2)
+Collecting sympy>=1.13.3 (from torch)
+  Downloading https://download.pytorch.org/whl/sympy-1.13.3-py3-none-any.whl.metadata (12 kB)
+Collecting networkx (from torch)
+  Downloading https://download.pytorch.org/whl/networkx-3.2.1-py3-none-any.whl.metadata (5.2 kB)
+Collecting jinja2 (from torch)
+  Downloading https://download.pytorch.org/whl/Jinja2-3.1.4-py3-none-any.whl.metadata (2.6 kB)
+Requirement already satisfied: fsspec in c:\users\agori\.conda\envs\dev_39\lib\site-packages (from torch) (2025.3.2)
+Requirement already satisfied: numpy in c:\users\agori\.conda\envs\dev_39\lib\site-packages (from torchvision) (1.26.4)
+Requirement already satisfied: pillow!=8.3.*,>=5.3.0 in c:\users\agori\.conda\envs\dev_39\lib\site-packages (from torchvision) (11.0.0)
+Collecting mpmath<1.4,>=1.1.0 (from sympy>=1.13.3->torch)
+  Downloading https://download.pytorch.org/whl/mpmath-1.3.0-py3-none-any.whl (536 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 536.2/536.2 kB 3.5 MB/s eta 0:00:00
+Collecting MarkupSafe>=2.0 (from jinja2->torch)
+  Downloading https://download.pytorch.org/whl/MarkupSafe-2.1.5-cp39-cp39-win_amd64.whl (17 kB)
+Downloading https://download.pytorch.org/whl/cu118/torch-2.7.0%2Bcu118-cp39-cp39-win_amd64.whl (2908.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0.0/2.9 GB 710.3 kB/s eta 1:08:04
+WARNING: Connection timed out while downloading.
+ERROR: Could not install packages due to an OSError: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\agori\\AppData\\Local\\Temp\\pip-unpack-dbn4ii_i\\torch-2.7.0+cu118-cp39-cp39-win_amd64.whl'
+Consider using the `--user` option or check the permissions.
+
+(dev_39) PS C:\Users\agori\.conda\envs\dev_39> pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+Looking in indexes: https://download.pytorch.org/whl/cu118
+Collecting torch
+  Using cached https://download.pytorch.org/whl/cu118/torch-2.7.0%2Bcu118-cp39-cp39-win_amd64.whl.metadata (29 kB)
+Collecting torchvision
+  Using cached https://download.pytorch.org/whl/cu118/torchvision-0.22.0%2Bcu118-cp39-cp39-win_amd64.whl.metadata (6.3 kB)
+Collecting torchaudio
+  Using cached https://download.pytorch.org/whl/cu118/torchaudio-2.7.0%2Bcu118-cp39-cp39-win_amd64.whl.metadata (6.8 kB)
+Requirement already satisfied: filelock in c:\users\agori\.conda\envs\dev_39\lib\site-packages (from torch) (3.18.0)
+Requirement already satisfied: typing-extensions>=4.10.0 in c:\users\agori\.conda\envs\dev_39\lib\site-packages (from torch) (4.12.2)
+Collecting sympy>=1.13.3 (from torch)
+  Using cached https://download.pytorch.org/whl/sympy-1.13.3-py3-none-any.whl.metadata (12 kB)
+Collecting networkx (from torch)
+  Using cached https://download.pytorch.org/whl/networkx-3.2.1-py3-none-any.whl.metadata (5.2 kB)
+Collecting jinja2 (from torch)
+  Using cached https://download.pytorch.org/whl/Jinja2-3.1.4-py3-none-any.whl.metadata (2.6 kB)
+Requirement already satisfied: fsspec in c:\users\agori\.conda\envs\dev_39\lib\site-packages (from torch) (2025.3.2)
+Requirement already satisfied: numpy in c:\users\agori\.conda\envs\dev_39\lib\site-packages (from torchvision) (1.26.4)
+Requirement already satisfied: pillow!=8.3.*,>=5.3.0 in c:\users\agori\.conda\envs\dev_39\lib\site-packages (from torchvision) (11.0.0)
+Collecting mpmath<1.4,>=1.1.0 (from sympy>=1.13.3->torch)
+  Using cached https://download.pytorch.org/whl/mpmath-1.3.0-py3-none-any.whl (536 kB)
+Collecting MarkupSafe>=2.0 (from jinja2->torch)
+  Using cached https://download.pytorch.org/whl/MarkupSafe-2.1.5-cp39-cp39-win_amd64.whl (17 kB)
+Downloading https://download.pytorch.org/whl/cu118/torch-2.7.0%2Bcu118-cp39-cp39-win_amd64.whl (2908.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.9/2.9 GB 1.3 MB/s eta 0:00:00
+Downloading https://download.pytorch.org/whl/cu118/torchvision-0.22.0%2Bcu118-cp39-cp39-win_amd64.whl (5.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.5/5.5 MB 3.0 MB/s eta 0:00:00
+Downloading https://download.pytorch.org/whl/cu118/torchaudio-2.7.0%2Bcu118-cp39-cp39-win_amd64.whl (4.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.1/4.1 MB 3.0 MB/s eta 0:00:00
+Downloading https://download.pytorch.org/whl/sympy-1.13.3-py3-none-any.whl (6.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.2/6.2 MB 2.3 MB/s eta 0:00:00
+Downloading https://download.pytorch.org/whl/Jinja2-3.1.4-py3-none-any.whl (133 kB)
+Downloading https://download.pytorch.org/whl/networkx-3.2.1-py3-none-any.whl (1.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.6/1.6 MB 5.2 MB/s eta 0:00:00
+Installing collected packages: mpmath, sympy, networkx, MarkupSafe, jinja2, torch, torchvision, torchaudio
+Successfully installed MarkupSafe-2.1.5 jinja2-3.1.4 mpmath-1.3.0 networkx-3.2.1 sympy-1.13.3 torch-2.7.0+cu118 torchaudio-2.7.0+cu118 torchvision-0.22.0+cu118
+(dev_39) PS C:\Users\agori\.conda\envs\dev_39>
+(dev_39) PS C:\Users\agori\.conda\envs\dev_39> pip install sentencepiece
+Collecting sentencepiece
+  Downloading sentencepiece-0.2.0-cp39-cp39-win_amd64.whl.metadata (8.3 kB)
+Downloading sentencepiece-0.2.0-cp39-cp39-win_amd64.whl (991 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 991.5/991.5 kB 2.9 MB/s eta 0:00:00
+Installing collected packages: sentencepiece
+Successfully installed sentencepiece-0.2.0
+(dev_39) PS C:\Users\agori\.conda\envs\dev_39> pip install sacremoses
+Collecting sacremoses
+  Downloading sacremoses-0.1.1-py3-none-any.whl.metadata (8.3 kB)
+Requirement already satisfied: regex in c:\users\agori\.conda\envs\dev_39\lib\site-packages (from sacremoses) (2024.11.6)
+Collecting click (from sacremoses)
+  Downloading click-8.1.8-py3-none-any.whl.metadata (2.3 kB)
+Collecting joblib (from sacremoses)
+  Downloading joblib-1.5.0-py3-none-any.whl.metadata (5.6 kB)
+Requirement already satisfied: tqdm in c:\users\agori\.conda\envs\dev_39\lib\site-packages (from sacremoses) (4.67.1)
+Requirement already satisfied: colorama in c:\users\agori\.conda\envs\dev_39\lib\site-packages (from click->sacremoses) (0.4.6)
+Downloading sacremoses-0.1.1-py3-none-any.whl (897 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 897.5/897.5 kB 3.4 MB/s eta 0:00:00
+Downloading click-8.1.8-py3-none-any.whl (98 kB)
+Downloading joblib-1.5.0-py3-none-any.whl (307 kB)
+Installing collected packages: joblib, click, sacremoses
+Successfully installed click-8.1.8 joblib-1.5.0 sacremoses-0.1.1
+(dev_39) PS C:\Users\agori\.conda\envs\dev_39>
